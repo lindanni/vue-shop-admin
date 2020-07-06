@@ -1,7 +1,7 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
-// import Login from '@/views/Login.vue'
 import EleLogin from '@/views/EleLogin.vue'
+import Home from '@/views/Home.vue'
 
 Vue.use(VueRouter)
 
@@ -10,6 +10,11 @@ const routes = [
     path: '/',
     name: 'EleLogin',
     component: EleLogin
+  },
+  {
+    path: '/home',
+    name: 'Home',
+    component: Home
   },
   {
     path: '/about',
